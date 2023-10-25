@@ -26,16 +26,15 @@
   <distributionManagement>
 <repository>
 <id>central</id>
-<name>3b5c55d0845a-releases</name>
-<url>http://100.25.47.201:8081/artifactory/libs-release</url>
+<name>c0a87903fe50-releases</name>
+<url>http://34.239.248.197:8081/artifactory/libs-release</url>
 </repository>
-
     <snapshotRepository>
 <id>snapshots</id>
-<name>3b5c55d0845a-snapshots</name>
-<url>http://100.25.47.201:8081/artifactory/libs-snapshot</url>
+<name>c0a87903fe50-snapshots</name>
+<url>http://34.239.248.197:8081/artifactory/libs-snapshot</url>
 </snapshotRepository>
-</distributionManagement
+</distributionManagement>
       
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
