@@ -23,7 +23,19 @@
 
    
   </dependencies>
-  <properties>
+  <distributionManagement>
+    <repository>
+    <id>central</id>
+    <name>d46634696b18-releases</name>
+    <url>http://100.24.238.69:8081/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>d46634696b18-snapshots</name>
+      <url>http://100.24.238.69:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.login>admin</sonar.login>
     <sonar.password>Teja@0159</sonar.password>
