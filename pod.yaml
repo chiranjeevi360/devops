@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+name: poc
+labels:
+   app: poc
+spec:
+containers:
+   - name: ar
+     image: tejabilla/poc:final
+     ports:
+       - containerPort: 8080
